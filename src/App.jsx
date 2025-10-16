@@ -1,6 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import ComingSoon from "./sections/ComingSoon";
+import FirstVideo from "./sections/FirstVideo";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
 
@@ -11,6 +11,7 @@ const App = () => {
     <main>
       <Navbar />
       <Hero />
+      <FirstVideo />
     </main>
   );
 };
